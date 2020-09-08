@@ -70,7 +70,6 @@
 }
 .site-banner .site-banner-text {
     color: var(--textWhite-color);
-    opacity:.9
 }
 .site-banner .site-banner-action {
     color: var(--secondary-color);
@@ -196,10 +195,19 @@
     background-position: center center;
 }
 
-.site-contact-title {
+.site-contact-left .site-contact-title {
     color: var(--secondary-color);
     font-size:2rem;
 }
+.site-contact-right .site-contact-title {
+    color: var(--primary-color);
+    font-size:2rem;
+}
+.site-contact-right .site-contact-subtitle {
+    color: var(--primary-color);
+   
+}
+
 .site-contact-subtitle  span{
     font-weight: 600;
 }
@@ -220,6 +228,22 @@
 .call-text {
     font-size: 2.5rem;
     font-weight: 600;
+}
+
+.contact-form {
+    color: var(--textDark-color);
+   
+}
+
+.send-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: all .3s ease-in-out
+}
+
+.send-btn:hover {
+    opacity: .9;
+    color: var(--secondary-color);
 }
 /* End Contact Area */
 
