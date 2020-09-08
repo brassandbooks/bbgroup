@@ -11,7 +11,7 @@
     width:70px;
 }
 .header_area .main-menu .navbar .navbar-brand span {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: var(--lato);
     font-weight: 900;
     font-size: 1.5rem;
@@ -51,6 +51,7 @@
 
 /* Start Header Intro Section */
 .site-main .site-banner {
+    margin-top:4rem;
     width: 100vw;
     height: 100vh;
     background: var(--gradient-color), url(../img/main-bg.JPG);
@@ -96,16 +97,18 @@
     width: 100vw;
     height:100vh
 }
-/* End Subsidiaries Area */
-
 .site-subsidiaries-subtitle {
     font-weight: 700;
 }
+
+/* End Subsidiaries Area */
+
 
 
 
 @media screen and (max-width: 767.98px) {
 
+    /* Start Header Intro Section */
     .site-main .site-banner {
         margin-top:7rem
     }
@@ -129,4 +132,16 @@
     .action-text {
         font-size:1rem
     }
+    /* End Header Intro Section */
+
+    /* Start Subsidiaries Area */
+    .font-title{
+        font-size: 2.5rem;
+    }
+    .font-subtitle {
+        font-size: 2.5rem;
+    }
+
+    /* End Subsidiaries Area */
+
  }
