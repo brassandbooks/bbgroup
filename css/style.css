@@ -1,0 +1,115 @@
+
+/* css variables */
+@import url(./paritals/_variables.css);
+
+
+
+/* start navigation */
+
+
+.header_area .main-menu .navbar .navbar-brand img {
+    width:70px;
+}
+.header_area .main-menu .navbar .navbar-brand span {
+    color: var(--secondary-color);
+    font-family: var(--lato);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-left:.2rem
+}
+.header_area .main-menu .navbar {
+    padding: 1rem 2rem
+}
+.header_area .main-menu .navbar .navbar-toggler {
+    border-color: var(--secondary-color);
+}
+
+.header_area .main-menu .navbar .nav-item .nav-link {
+    font-family: var(--lato);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1.7rem;
+    color: var(--textDark-color);
+   transition: all .3s ease-in-out
+
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: var(--secondary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--secondary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navigation */
+
+/* Start Header Intro Section */
+.site-main .site-banner {
+    width: 100vw;
+    height: 100vh;
+    background: var(--gradient-color), url(../img/main-bg.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.site-banner .site-banner-title {
+    color: var(--secondary-color);
+}
+.site-banner .site-banner-subtitle {
+    color: var(--textWhite-color);
+    font-weight:700;
+}
+.site-banner .site-banner-text {
+    color: var(--textWhite-color);
+}
+.site-banner .site-banner-action {
+    color: var(--secondary-color);
+    font-size:1.5rem;
+    transition: all .3s ease-in-out;
+    
+}
+.site-banner-action:hover {
+    text-decoration:none;
+    cursor: pointer;
+    transform: scale(.9);
+}
+.action-icon {
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+/* End Header Intro Section */
+
+/* Start Subsidiaries Area */
+.site-subsidiaries {
+    background-color: var(--secondary-color);
+    width: 100vw;
+    height:100vh
+}
+/* End Subsidiaries Area */
+
+.site-subsidiaries-subtitle {
+    font-weight: 700;
+}
+
+
+
+
+@media (max-width: 767.98px) { 
+    .main-menu {
+        background-color: red;
+    }
+
+    .site-main .site-banner {
+        margin-top:50rem
+    }
+ }
