@@ -94,12 +94,48 @@
 /* Start Subsidiaries Area */
 .site-subsidiaries {
     background-color: var(--secondary-color);
+    color: var(--primary-color);
     width: 100vw;
-    height:100vh
+    height: auto
 }
 .site-subsidiaries-subtitle {
     font-weight: 700;
 }
+
+.site-subsidiaries .card .card-img-top {
+    width:15rem;
+    margin:0 auto;
+    padding: 2rem;
+}
+.site-subsidiaries .front  {
+  color: var(--primary-color);
+  overflow: hidden;
+  transition: all .3s ease-in-out
+}
+.site-subsidiaries .back  {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    overflow: hidden;
+    transition: all .3s ease-in-out
+}
+.site-subsidiaries .back .card-text {
+    font-size: 1rem;
+}
+
+.site-subsidiaries .back .card-link {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    transition: all .3s ease-in-out
+}
+.site-subsidiaries .back .card-link:hover {
+    opacity: .7;
+}
+.subsidiaries-box {
+    position: relative
+}
+
 
 /* End Subsidiaries Area */
 
