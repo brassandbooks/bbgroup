@@ -109,12 +109,12 @@
 @media screen and (max-width: 767.98px) {
     /* start navigation */
     .header_area .main-menu .navbar {
-        padding: 0;
+        padding: 1rem;
     }
 /* End navigation */
     /* Start Header Intro Section */
     .site-main .site-banner {
-        margin-top:7rem
+        margin-top:6rem
     }
     .site-banner .site-banner-title {
         font-size: 3rem;
