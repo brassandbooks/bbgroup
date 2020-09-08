@@ -102,61 +102,28 @@
 }
 
 .site-subsidiaries .card .card-img-top {
-    width:15rem;
     margin:0 auto;
     padding: 2rem;
 }
 
-.activeCard {
-    z-index: 2
-}
 
-.site-subsidiaries .front  {
-    width:100%;
+.site-subsidiaries .card  {
+    min-width: 15rem;
+    max-width: 18rem;
     height: 100%;
-  color: var(--primary-color);
-  overflow: hidden;
-  transition: all .5s ease-in-out;
- 
 
-  position: absolute;
-    top:0;
-    left:0;
-    
 }
-.site-subsidiaries .back  {
-    width:100%;
-    height: 100%;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    overflow: hidden;
-    transition: all .3s ease-in-out;
-
-    position: absolute;
-    top:0;
-    left:0;
-    
-}
-.site-subsidiaries .back .card-text {
-    font-size: 1rem;
-}
-
-.site-subsidiaries .back .card-link {
+.subsidiaries a {
     color: var(--primary-color);
-    background-color: var(--secondary-color);
-    padding: .5rem 1rem;
-    border-radius: 3px;
     transition: all .3s ease-in-out;
 }
-.site-subsidiaries .back .card-link:hover {
-    opacity: .7;
-}
-.subsidiaries-box {
-    position: relative;
-    min-width:300px;
-    height: 350px;
-}
+.subsidiaries a:hover {
+    text-decoration: none;
 
+}
+.subsidiaries a:hover {
+color: var(--accent-color)
+}
 
 /* End Subsidiaries Area */
 /* Start About Area */
