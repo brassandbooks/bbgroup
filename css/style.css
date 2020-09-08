@@ -107,7 +107,11 @@
 
 
 @media screen and (max-width: 767.98px) {
-
+    /* start navigation */
+    .header_area .main-menu .navbar {
+        padding: 0;
+    }
+/* End navigation */
     /* Start Header Intro Section */
     .site-main .site-banner {
         margin-top:7rem
