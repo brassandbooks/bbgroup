@@ -264,6 +264,11 @@ font-family:var(--lato)
     color: var(--secondary-color);
     text-decoration: underline;
 }
+
+.copy-right {
+    background-color: #314155;
+    color: var(--textLight-color);
+}
 /* End Footer Area */
 
 
