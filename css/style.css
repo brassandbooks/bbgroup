@@ -228,7 +228,9 @@ color: var(--accent-color)
 .footer-text {
     font-size:1rem;
 }
-
+.social-item {
+    list-style: none;
+}
 .social-link {
 display: block;
 color: var(--textWhite-color);
@@ -236,6 +238,7 @@ transition: all .3s ease-in-out;
 }
 .social-link:hover {
     color: var(--secondary-color);
+    transform: scale(1.1)
 }
 .footer-title {
     font-size: 1.3rem;
