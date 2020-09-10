@@ -7,10 +7,10 @@
 /* start navigation */
 
 
-.header_area .main-menu .navbar .navbar-brand img {
+.header_area .main-menu .navbar .navbar-brand img, .spike-logo img {
     width:70px;
 }
-.header_area .main-menu .navbar .navbar-brand span {
+.header_area .main-menu .navbar .navbar-brand span, .spike-logo span {
     color: var(--primary-color);
     font-family: var(--lato);
     font-weight: 900;
@@ -211,6 +211,50 @@ color: var(--accent-color)
     color: var(--secondary-color);
 }
 /* End Contact Area */
+
+
+/* Start Footer Area */
+.site-footer {
+    background-color: var(--primary-color);
+    color: var(--textWhite-color);
+}
+.spike-logo:hover {
+    text-decoration: none;
+}
+.spike-logo span {
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    font-size:1rem;
+}
+
+.social-link {
+display: block;
+color: var(--textWhite-color);
+transition: all .3s ease-in-out;
+}
+.social-link:hover {
+    color: var(--secondary-color);
+}
+.footer-title {
+    font-size: 1.3rem;
+}
+.footer-item {
+    list-style: none;
+    font-size:1rem
+}
+
+.footer-link {
+color: var(--secondary-color);
+font-family:var(--lato)
+
+}
+.footer-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+/* End Footer Area */
 
 
 
