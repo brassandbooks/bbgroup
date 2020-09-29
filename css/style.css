@@ -1,333 +1,347 @@
-
 /* css variables */
 @import url(./paritals/_variables.css);
 
-
-
 /* start navigation */
 
-
-.header_area .main-menu .navbar .navbar-brand img, .spike-logo img {
-    width:70px;
+.header_area .main-menu .navbar .navbar-brand img,
+.spike-logo img {
+  width: 70px;
 }
-.header_area .main-menu .navbar .navbar-brand span, .spike-logo span {
-    color: var(--primary-color);
-    font-family: var(--lato);
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-left:.2rem
+.header_area .main-menu .navbar .navbar-brand span,
+.spike-logo span {
+  color: var(--primary-color);
+  font-family: var(--lato);
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-left: 0.2rem;
 }
 .header_area .main-menu .navbar {
-    padding: 1rem 2rem
+  padding: 1rem 2rem;
 }
 .header_area .main-menu .navbar .navbar-toggler {
-    border-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .header_area .main-menu .navbar .nav-item .nav-link {
-    font-family: var(--lato);
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 1.7rem;
-    color: var(--textDark-color);
-   transition: all .3s ease-in-out
-
+  font-family: var(--lato);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1.7rem;
+  color: var(--textDark-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .header_area .main-menu .navbar-nav .active a {
-    background: var(--secondary-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  background: var(--secondary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background: var(--secondary-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  background: var(--secondary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 /* end navigation */
 
+/* start modal youtube vidoe */
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+  background-color: var(--secondary-color);
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+/* end modal youtube vidoe */
+
 /* Start Header Intro Section */
 .site-main .site-banner {
-    margin-top:4rem;
-    width: 100vw;
-    height: 100vh;
-    background: var(--gradient-color), url(../img/main-bg.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
+  margin-top: 4rem;
+  width: 100vw;
+  height: 100vh;
+  background: var(--gradient-color), url(../img/main-bg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
 }
 
 .site-banner .site-banner-title {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
+  font-family: "Noto Sans KR", sans-serif;
 }
 .site-banner .site-banner-subtitle {
-    color: var(--textWhite-color);
-    font-weight:700;
+  color: var(--textWhite-color);
+  font-weight: 700;
 }
 .site-banner .site-banner-text {
-    color: var(--textWhite-color);
+  color: var(--textWhite-color);
 }
 .site-banner .site-banner-action {
-    color: var(--secondary-color);
-    font-size:1.5rem;
-    transition: all .3s ease-in-out;
-    
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
 }
 .site-banner-action:hover {
-    text-decoration:none;
-    cursor: pointer;
-    transform: scale(.9);
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(0.9);
 }
 .action-icon {
-    border: 2px solid var(--secondary-color);
-    border-radius: 50%;
-    width:3.5rem;
-    height:3.5rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 /* End Header Intro Section */
 
 /* Start Subsidiaries Area */
 .site-subsidiaries {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    width: 100vw;
-    height: auto
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  height: auto;
+  font-family: var(--roboto);
 }
 .site-subsidiaries-subtitle {
-    font-weight: 700;
+  font-weight: 700;
+  font-family: var(--roboto);
 }
 
 .site-subsidiaries .card .card-img-top {
-    margin:0 auto;
-    padding: 2rem;
+  margin: 0 auto;
 }
 
-
-.site-subsidiaries .card  {
-    min-width: 15rem;
-    max-width: 18rem;
-    height: 100%;
-
+.site-subsidiaries .card {
+  min-width: 15rem;
+  max-width: 18rem;
+  height: 100%;
+  background-color: var(--textWhite-color);
 }
 .subsidiaries a {
-    color: var(--primary-color);
-    transition: all .3s ease-in-out;
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .subsidiaries a:hover {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 .subsidiaries a:hover {
-color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 /* End Subsidiaries Area */
 /* Start About Area */
-.site-about{
-    width:100vw;
-    height: auto;
-    background-color: var(--textWhite-color);
-    color: var(--primary-color);
-    background-image: url('/img/about-bg.png');
-    background-size: cover;
-    background-position-y: center right;
-    background-repeat: no-repeat;
+.site-about {
+  width: 100vw;
+  height: auto;
+  background-color: var(--textWhite-color);
+  color: var(--primary-color);
+  background-image: url("/img/about-bg.png");
+  background-size: cover;
+  background-position-y: center right;
+  background-repeat: no-repeat;
 }
 
 .site-about-subtitle span {
-    font-weight: 700;
+  font-weight: 700;
 }
 /* End About Area */
 
-
 /* Start Contact Area */
-.site-contact{
-    width:100%;
-    height: 100%;
-    color: var(--textWhite-color);
+.site-contact {
+  width: 100%;
+  height: 100%;
+  color: var(--textWhite-color);
 }
 
 .site-contact-left {
-    height:100vh;
-    background: var(--gradient-color), url(../img/contact-bg.JPG);
-    background-attachment: scroll;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  height: 100vh;
+  background: var(--gradient-color), url(../img/contact-bg.JPG);
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .site-contact-left .site-contact-title {
-    color: var(--secondary-color);
-    font-size:2rem;
+  color: var(--secondary-color);
+  font-size: 2rem;
 }
 .site-contact-right .site-contact-title {
-    color: var(--primary-color);
-    font-size:2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
 }
 .site-contact-right .site-contact-subtitle {
-    color: var(--primary-color);
-   
+  color: var(--primary-color);
 }
 
-.site-contact-subtitle  span{
-    font-weight: 600;
+.site-contact-subtitle span {
+  font-weight: 600;
 }
 .site-contact-subtitle {
-    font-size:3rem;
+  font-size: 3rem;
 }
 
 .contact {
-    height: 90%;   
+  height: 90%;
 }
 .contact-icon {
-    font-size:2rem;
-    color: var(--secondary-color)
+  font-size: 2rem;
+  color: var(--secondary-color);
 }
 .contact-text {
-    font-size:1.2rem;
-    transition: all .3s ease-in-out
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 .call-text {
-    text-decoration: underline;
-    font-weight: 500;
+  text-decoration: underline;
+  font-weight: 500;
 }
 .call-text:any-link {
-    text-decoration: underline;
-    color: var(--textWhite-color);
-    text-decoration-color: var(--secondary-color);
+  text-decoration: underline;
+  color: var(--textWhite-color);
+  text-decoration-color: var(--secondary-color);
 }
 
 .contact-form {
-    color: var(--textDark-color);
-   
+  color: var(--textDark-color);
 }
 
-.send-btn{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    transition: all .3s ease-in-out
+.send-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .send-btn:hover {
-    opacity: .9;
-    color: var(--secondary-color);
+  opacity: 0.9;
+  color: var(--secondary-color);
 }
 /* End Contact Area */
 
-
 /* Start Footer Area */
 .site-footer {
-    background-color: var(--primary-color);
-    color: var(--textWhite-color);
+  background-color: var(--primary-color);
+  color: var(--textWhite-color);
 }
 .spike-logo:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 .spike-logo span {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .footer-text {
-    font-size:1rem;
+  font-size: 1rem;
 }
 .social-item {
-    list-style: none;
+  list-style: none;
 }
 .social-link {
-display: block;
-color: var(--textWhite-color);
-transition: all .3s ease-in-out;
+  display: block;
+  color: var(--textWhite-color);
+  transition: all 0.3s ease-in-out;
 }
 .social-link:hover {
-    color: var(--secondary-color);
-    transform: scale(1.1)
+  color: var(--secondary-color);
+  transform: scale(1.1);
 }
 .footer-title {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 .footer-item {
-    list-style: none;
-    font-size:1rem
+  list-style: none;
+  font-size: 1rem;
 }
 
 .footer-link {
-color: var(--secondary-color);
-font-family:var(--lato)
-
+  color: var(--secondary-color);
+  font-family: var(--lato);
 }
 .footer-link:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 
 .copy-right {
-    background-color: #314155;
-    color: var(--textLight-color);
+  background-color: #314155;
+  color: var(--textLight-color);
 }
 /* End Footer Area */
 
-
-
-
 @media screen and (max-width: 767.98px) {
-    /* start navigation */
-    .header_area .main-menu .navbar {
-        padding: 1rem;
-    }
-/* End navigation */
-    /* Start Header Intro Section */
-    .site-main .site-banner {
-        margin-top:6rem
-    }
-    .site-banner .site-banner-title {
-        font-size: 3rem;
-    }
-    .site-banner .site-banner-subtitle {
-        font-size: 3rem;
-    }
-    .site-banner .site-banner-text {
-        font-size: 1rem;
-        line-height:1.7rem;
-    }
-    .action-icon {
-        border: 2px solid var(--secondary-color);
-        border-radius: 50%;
-        font-size:1rem;
-        width:3rem;
-        height:3rem;
-    }
-    .action-text {
-        font-size:1rem
-    }
-    /* End Header Intro Section */
+  /* start navigation */
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+  /* End navigation */
+  /* Start Header Intro Section */
+  .site-main .site-banner {
+    margin-top: 6rem;
+  }
+  .site-banner .site-banner-title {
+    font-size: 3rem;
+  }
+  .site-banner .site-banner-subtitle {
+    font-size: 3rem;
+  }
+  .site-banner .site-banner-text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+  .action-icon {
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    font-size: 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .action-text {
+    font-size: 1rem;
+  }
+  /* End Header Intro Section */
 
-    /* Start Subsidiaries Area */
-    .font-title{
-        font-size: 2.5rem;
-    }
-    .font-subtitle {
-        font-size: 2.5rem;
-    }
-    .font-text {
-        font-size: 1.2rem;
-        font-weight: 300;
-    }
-    
-    /* End Subsidiaries Area */
-    /* Start Contact Area */
-    .site-contact-title {
-        font-size:2rem;
-    }
-    .site-contact-subtitle {
-        font-size:2rem;
-    }
-        
-    .contact-text {
-        font-size:1rem;
-    }
+  /* Start Subsidiaries Area */
+  .font-title {
+    font-size: 2.5rem;
+  }
+  .font-subtitle {
+    font-size: 2.5rem;
+  }
+  .font-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  /* End Subsidiaries Area */
+  /* Start Contact Area */
+  .site-contact-title {
+    font-size: 2rem;
+  }
+  .site-contact-subtitle {
+    font-size: 2rem;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
   /* End Contact Area */
- }
+}
