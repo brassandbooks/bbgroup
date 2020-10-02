@@ -278,6 +278,8 @@
 .footer-link {
   color: var(--secondary-color);
   font-family: "Open sans", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
 }
 .footer-link:hover {
   color: var(--secondary-color);
