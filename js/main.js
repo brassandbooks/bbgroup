@@ -40,4 +40,7 @@ $(document).ready(function () {
 
     initModal()
 
+    //Get form details 
+    let
+
 })
