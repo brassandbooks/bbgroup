@@ -40,7 +40,38 @@ $(document).ready(function () {
 
     initModal()
 
-    //Get form details 
-    let
+    //Smooth Scrolling
+    //declare variables
+    let btnSub = document.getElementById('subsidiaries-btn')
+    let btnHome = document.getElementById('home-btn')
+    let btnContact = document.getElementById('contact-btn')
+    let btnTeam = document.getElementById('team-btn')
+    let btnOurApproach = document.getElementById('our-approach-btn')
 
+
+    cont button = [btnSub, btnHome, btnContact, btnTeam, btnOurApproach]
+
+
+    //Get form details 
+    let form = document.getElementById('form')
+    let name = document.getElementById('name')
+    let email = document.getElementById('email')
+    let phone = document.getElementById('phone')
+    let subject = document.getElementById('subject')
+    let message = document.getElementById('message')
+    let btn = document.getElementById('submit-btn')
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+
+        const details = {
+            name: name.value,
+            email: email.value,
+            phone: phone.value,
+            subject: subject.value,
+            message: message.value
+        }
+
+        console.log(details);
+    })
 })

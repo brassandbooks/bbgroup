@@ -3,6 +3,9 @@
 
 /* start navigation */
 
+.bg-white {
+  background-color: #ffffff;
+}
 .header_area .main-menu .navbar .navbar-brand img,
 .spike-logo img {
   width: 70px;
@@ -166,6 +169,45 @@
   font-weight: 700;
 }
 /* End About Area */
+
+/* Start Team Area */
+.site-team {
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+
+.profile {
+}
+.profile-img {
+  min-width: 250px;
+  max-width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+  overflow: hidden;
+  border-radius: 3px;
+  border-bottom: 0.35rem solid var(--secondary-color);
+}
+.profile-img-m {
+  min-width: 200px;
+  max-width: 200px;
+  height: 200px;
+}
+
+.profile-link {
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.profile h6 {
+  color: var(--textDark-color);
+}
+
+.profile-link:hover {
+  color: var(--secondary-color);
+  transform: scale(1.1);
+}
+/* End Team Area */
 
 /* Start Contact Area */
 .site-contact {
