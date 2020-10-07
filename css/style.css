@@ -2,6 +2,9 @@
 @import url(./paritals/_variables.css);
 
 /* start navigation */
+html {
+  scroll-behavior: smooth;
+}
 
 .bg-white {
   background-color: #ffffff;
@@ -27,6 +30,7 @@
 
 .header_area .main-menu .navbar .nav-item .nav-link {
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: 600;
   padding: 1.7rem;
@@ -316,7 +320,9 @@
   list-style: none;
   font-size: 1rem;
 }
-
+.footer-ul {
+  padding-left: 0;
+}
 .footer-link {
   color: var(--secondary-color);
   font-family: "Open sans", sans-serif;

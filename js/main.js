@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
     let links = document.querySelectorAll('.nav-item')
 
 
@@ -40,16 +41,6 @@ $(document).ready(function () {
 
     initModal()
 
-    //Smooth Scrolling
-    //declare variables
-    let btnSub = document.getElementById('subsidiaries-btn')
-    let btnHome = document.getElementById('home-btn')
-    let btnContact = document.getElementById('contact-btn')
-    let btnTeam = document.getElementById('team-btn')
-    let btnOurApproach = document.getElementById('our-approach-btn')
-
-
-    cont button = [btnSub, btnHome, btnContact, btnTeam, btnOurApproach]
 
 
     //Get form details 
