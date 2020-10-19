@@ -141,8 +141,13 @@ html {
   background-color: #ffff;
 }
 .site-subsidiaries .card .card-img-top {
+  transition: all 0.4s ease-in-out;
   margin: 0 auto;
   padding: 2.5rem;
+}
+.site-subsidiaries .card:hover .card-img-top {
+  object-fit: cover;
+  transform: scale(1.15);
 }
 
 .site-subsidiaries .card .card-body {
