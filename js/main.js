@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
 
-    let links = document.querySelectorAll('.nav-item')
 
+    let links = document.querySelectorAll('.nav-item')
 
     links.forEach(link => {
         link.addEventListener('click', e => {
@@ -41,8 +41,6 @@ $(document).ready(function () {
 
     initModal()
 
-
-
     //Get form details 
     let form = document.getElementById('form')
     let name = document.getElementById('name')
@@ -65,4 +63,25 @@ $(document).ready(function () {
 
         console.log(details);
     })
+
+
+
+    //Dynamically render teams profile
+    // Initailize a Profile constructor
+
+
+    class Profile {
+        constructor(name, position, bio, profileImg, socialLinks) {
+            this.name = name,
+                this.position = position,
+                this.bio = bio,
+                this.profileImg = profileImg,
+                this.socialLinks = socialLinks
+
+        }
+    }
+
+
+
+
 })
