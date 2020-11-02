@@ -138,12 +138,12 @@ html {
   min-width: 11rem;
   max-width: 11rem;
   height: 16rem;
-  background-color: #ffff;
+  background-color: var(--secondary-color);
 }
 .site-subsidiaries .card .card-img-top {
   transition: all 0.4s ease-in-out;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 1rem;
 }
 .site-subsidiaries .card:hover .card-img-top {
   object-fit: cover;
